@@ -10,3 +10,7 @@ To build and run the container execute:
 # Install docker on windows
 
 * Download docker from - https://hub.docker.com/?overlay=onboarding
+
+# Linux/Unix
+
+* https://runnable.com/docker/install-docker-on-linux
