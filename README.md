@@ -3,16 +3,16 @@
 To build the container:
 
 ```docker
-  $ docker build -t my-golang-app .
+  docker build -t hello .
 ```
 
 To run the container:
 
 ```docker
-  $ docker run -it --rm --name my-running-app my-golang-app
+  docker run -p 80:80 hello
 ```
 
-
+php file will run in localhost
 
 
 # Install docker on windows
