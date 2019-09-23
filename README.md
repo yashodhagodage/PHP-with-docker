@@ -1,10 +1,18 @@
 # PHP-with-docker
 
-To build and run the container execute:
+To build the container:
 
 ```docker
-  docker-compose up
+  docker build -t hello .
 ```
+
+To run the container:
+
+```docker
+  docker run -p 80:80 hello
+```
+
+php file will run in localhost
 
 
 # Install docker on windows
